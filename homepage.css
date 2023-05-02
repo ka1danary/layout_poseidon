@@ -1,0 +1,66 @@
+* {
+    background-color: #2C2C2C;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+
+}
+
+.description{
+    width: 33%;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.storey {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+
+.button-container{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.time-button {
+    width: 33%;
+    height: 40px;
+    background-color: #3095A6;
+    padding: 10px 40px;
+    border: none;
+    margin: 10px;
+    transition: all 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    font-size: 70%;
+}
+
+.time-button:hover {
+    background-color: #3ab3c7;
+}
+
+time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
